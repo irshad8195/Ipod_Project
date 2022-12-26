@@ -1,0 +1,52 @@
+{
+  "homepage": "http://RitishKhanna.github.io/iPod-Classic",
+  "name": "ipod-classic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "zingtouch": "^1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "description": "1. Looks like an amazing classic device we all used to adore.\r 2. Fully working functionalty for listening to music, all controls work : play/pause, forward, reverse, next, previous.\r 3. Fully working settings menu(change theme, change wheel color, change wallpaper).\r 4. Amazing looking lock screen.\r 5. Now playing Menu.\r 6. All design credits to apple, afterall immitation is the sincerest form of flattery. Also motivated by an app named retroPod from appstore by James'o Brian.\r 7. Songs and images only for personal use, a big credit to font-awesome and flat-icons.\r 8. Please contact me for any concerns.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitishKhanna/iPod-Classic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitishKhanna/iPod-Classic/issues"
+  }
+}
